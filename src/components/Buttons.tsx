@@ -4,7 +4,9 @@ type ButtonsPrpos = {
 
 function Buttons({ text }: ButtonsPrpos) {
   return (
-    <a href="/">{text}</a>
+    <li>
+      <a className="headerNavigation" href="/">{text}</a>
+    </li>
   );
 }
 
